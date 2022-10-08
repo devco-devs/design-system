@@ -1,0 +1,22 @@
+module.exports = {
+  "typescript": {
+    "reactDocgen": "react-docgen"
+  },
+  "stories": [
+    "../src/pages/**/*.stories.mdx",
+    "../src/stories/**/*.stories.tsx"
+  ],
+  "addons": [
+    "@storybook/addon-a11y",
+    "@storybook/addon-links",
+    "@storybook/addon-essentials",
+    "@storybook/addon-interactions"
+  ],
+  "framework": "@storybook/react",
+  "core": {
+    "builder": "@storybook/builder-vite"
+  },
+  "features": {
+    "storyStoreV7": true
+  }
+}
